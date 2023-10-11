@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        hi!
+        Hi!
         <m.div
           initial={{
             opacity: 0,
@@ -41,7 +41,7 @@ function HeaderTitle() {
             duration: 0.7,
           }}
         >
-          <Image
+          {/* <Image
             className={clsx('w-7 md:w-10')}
             alt="Love-you Gesture"
             src="/assets/emojis/love-you-gesture.png"
@@ -55,7 +55,7 @@ function HeaderTitle() {
               });
             }}
             priority
-          />
+          /> */}
         </m.div>
       </m.div>
       <span className={clsx('text-slate-700', 'dark:text-slate-300')}>
@@ -94,7 +94,9 @@ function HeaderTitle() {
             Full-Stack Software Developer
           </strong>{' '}
           who loves to{' '}
-          <span className={clsx('block')}>build Web & Mobile applications.</span>
+          <span className={clsx('block')}>
+            build Web & Mobile applications.
+          </span>
         </m.h1>
       </span>
     </div>
