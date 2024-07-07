@@ -13,7 +13,7 @@ import useOnScroll from '@/hooks/useOnScroll';
 const workLinks = [
   { title: 'Skills & Tools', href: '/work/skills-and-tools' },
   { title: 'Experience', href: '/work/experience' },
-  { title: 'Studio', href: '/work/studio' },
+  { title: 'My Setup', href: '/work/studio' },
   { title: 'Contact', href: '/work/contact' },
 ];
 
@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <header
-      className={clsx('fixed top-0 right-0 left-0 z-[1000]', 'fm:absolute')}
+      className={clsx('fixed left-0 right-0 top-0 z-[1000]', 'fm:absolute')}
     >
       <div
         className={clsx(

@@ -118,7 +118,7 @@ function FooterDescription() {
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://twitter.com/enjidev"
+            href="https://twitter.com/codingwithbenji"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -142,7 +142,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://figma.com/@enjidev"
+            href="https://figma.com/@codingwithbenji"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -192,16 +192,12 @@ function Footer() {
                       title: 'Skills and Tools',
                       href: '/work/skills-and-tools',
                     },
-                    { title: 'Studio', href: '/work/studio' },
+                    { title: 'My Setup', href: '/work/studio' },
                   ]}
                 />
                 <FooterGroup
                   title="Learn"
                   links={[
-                    {
-                      title: 'Docs',
-                      href: '/docs',
-                    },
                     {
                       title: 'Personal Blog',
                       href: '/blog',
@@ -219,18 +215,9 @@ function Footer() {
                   title="This Site"
                   links={[
                     {
-                      title: 'Design Concept',
-                      href: 'https://www.figma.com/community/file/1176392613303840973',
-                      isInternal: false,
-                    },
-                    {
                       title: 'Source Code',
                       href: 'https://github.com/benjimiles',
                       isInternal: false,
-                    },
-                    {
-                      title: 'Credits',
-                      href: '/credits',
                     },
                   ]}
                 />
